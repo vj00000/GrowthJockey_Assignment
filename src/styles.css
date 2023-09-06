@@ -1,0 +1,79 @@
+.App { 
+  background-color: black;
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+.outerBox{
+  /* height: 100vh; */
+        /* width: 100vw;  */
+  justify-content: left;
+  margin: 24px;
+  background-color:#242633 
+}
+ .Box1{
+  background-color: #242633;
+  padding-top: 12px;
+  /* margin:0px; */
+  /* height: 100vh; */
+  /* width: 100vw; */
+} 
+
+.Pass{
+  /* margin-top: 24px; */
+  display: flex;
+  justify-content:space-between
+  margin-bottom: 16px;
+  color: #ffffff;
+  font-family:Arial;
+  font: weight 700;
+  font-size:20px
+}
+.copy{
+  display: flex;
+  float:right;
+}
+
+.slider{
+  /* display: flex; */
+  color:#707070;
+  font-weight: 700;
+  font-size: 16px;
+  /* justify-content: left; */
+}
+.check{
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: left;
+}
+.strength{
+  display: flex;
+  justify-content: left;
+  color: darkgrey;
+  font-weight: bold;
+  background-color: black;
+  padding: 12px;
+}
+
+.flex_v{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  /* margin-bottom: 0px; */
+}
+.c_l{
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #707070;
+  font-family:Arial;
+  font: weight 700;
+  font-size:20px  
+}
+.bg-btn{
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #2A8B8B
+  
+}
